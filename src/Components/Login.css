@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #d2b48c, #8b4513);
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+} 
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.remember-forgot {
+    padding-bottom: 10px;
+    font-size: 12px; 
+    text-align: right;
+}
+
+button {
+    background-color: #d2b48c;
+    color: #0f0f0f;
+    padding: 10px 30px;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b4513;
+}
+
+.register-link {
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
